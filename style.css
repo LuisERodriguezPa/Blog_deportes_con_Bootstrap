@@ -20,7 +20,7 @@ body{
 }
 .header{
     /* background-color: var(--bs-primary); */
-    background-color: #0012d4;
+    background-color: #6264ec;
     position: fixed;
     top:0;
     z-index: 1;

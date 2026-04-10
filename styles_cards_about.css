@@ -1,0 +1,49 @@
+:root {
+    --primary-color: #4a90e2; /* Un azul moderno */
+    --accent-color: #f39c12;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.custom-card {
+    border-radius: 20px;
+    overflow: visible; /* Para que la imagen sobresalga si quieres */
+    transition: transform 0.3s ease;
+}
+
+.custom-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Encabezado de la Card con gradiente */
+.card-header-img {
+    background: linear-gradient(135deg, var(--primary-color), #9013fe);
+    height: 120px;
+    border-radius: 20px 20px 0 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+/* Posicionamiento de la imagen de perfil */
+.profile-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    position: absolute;
+    bottom: -50px;
+    background-color: white;
+}
+
+/* Botón personalizado */
+.custom-btn {
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.custom-btn:hover {
+    background-color: #357abd;
+}
